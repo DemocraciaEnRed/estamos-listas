@@ -11,7 +11,7 @@ html(lang=locale)
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
     include includes/og
     include includes/analytics
-
+    include includes/gtag
     //-
     //-   Styles
     //-   ==================================================
@@ -33,6 +33,7 @@ html(lang=locale)
     //-   Content
     //-   ==================================================
     block content
+    include includes/gtagnoscript
 
     script.
       window.config = !{JSON.stringify(client)};
