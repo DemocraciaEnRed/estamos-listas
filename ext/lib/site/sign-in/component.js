@@ -60,7 +60,7 @@ export class SignIn extends Component {
 
   render () {
     let registerLink = (
-      <div className='form-group'>
+      <div className='form-group form-signup'>
         <div className='signup'>
           <span>{t('signin.dont-have-account')}</span>
           <Link
@@ -123,6 +123,16 @@ export class SignIn extends Component {
             required />
         </div>
         { config.allowPublicSignUp && registerLink }
+        <div className='form-group'>
+          <div className='already-registered'>
+            <span>Si ya tenés un cuenta</span>
+            <Link
+              to='/get-password'
+              tabIndex={4}>
+              pedí la contraseña
+            </Link>
+          </div>
+        </div>
         <div className='form-group' />
         {!this.state.loading && (
           <button
