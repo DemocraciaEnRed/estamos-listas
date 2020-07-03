@@ -5,6 +5,8 @@ const notifierConfig = require('democracyos-notifier/lib/config')
 const translations = require('democracyos-notifier/lib/translations')
 const pug = require('pug')
 const config = require('lib/config')
+const notifier = require('democracyos-notifier')
+const log = require('debug')('democracyos:ext:notifier')
 
 require('./translations')
 
@@ -67,3 +69,19 @@ function replaceVars (template, vars) {
 }
 
 notifierTemplates.pug = _pug
+
+/////// ESTO DE ABAJO ES POR SI QUEREMOS OVERRIDEAR/PISAR LOS MAILS
+/////// POR DEFECTO DEL SISTEMA
+// Wait until the notifier is initialized
+/*const interval = setInterval(function () {
+  if (!notifier.mailer) return
+  clearInterval(interval)
+  notifier.init().then(() => {
+    ;[
+      require('./jobs/forgot-password')
+    ].forEach((job) => job(notifier))
+    log('Ext notifier email jobs loaded')
+  }).catch((err) => {
+    console.error('Error loading ext/lib/notifier: ', err)
+  })
+}, 200)*/
