@@ -45,6 +45,13 @@ export default class HelpLayout extends PureComponent {
       Content: MarkdownGuide,
       slug: 'markdown',
       path: '/ayuda/markdown'
+    },
+    {
+      title: 'Aviso de privacidad',
+      Content: () => <Content content={articles.avisoPrivacidad} />,
+      slug: 'aviso-privacidad',
+      path: '/ayuda/aviso-privacidad',
+      hidden: true
     }
   ]
 

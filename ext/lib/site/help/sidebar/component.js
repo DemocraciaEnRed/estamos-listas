@@ -7,7 +7,7 @@ export default ({
 }) => (
   <div className='page-sidebar'>
     <ul className='nav nav-pills nav-stacked'>
-      {articles.map((article, key) => (
+      {articles.filter(article => !article.hidden).map((article, key) => (
         <li className={activeSlug === article.slug ? 'active' : ''}>
           <Link key={key} to={article.path}>{article.title}</Link>
         </li>
