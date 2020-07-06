@@ -30,5 +30,6 @@
       "nodemailer": {"host":"","port": 2525,"auth":{"user":"","pass":""},"maxConnections":1,"rateLimit":"true","pool":"true","maxMessages":1}
     },
     "allowPublicAccess": true,
-    "allowPublicSignUp": true
+    "allowPublicSignUp": true,
+    "privateForum": ""
   }

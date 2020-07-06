@@ -171,5 +171,6 @@
   ],
   "enforceLocale": false,
   "allowPublicAccess": true,
-  "allowPublicSignUp": true
+  "allowPublicSignUp": true,
+  "privateForum": ""
 }
