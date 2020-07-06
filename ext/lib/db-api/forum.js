@@ -7,6 +7,15 @@ var Forum = models.Forum
 var Topic = models.Topic
 var Comment = models.Comment
 
+function filterQueryVisibility(query, user) {
+  //si no es privada mostrar
+  //si es privada, mostrar solo si lx usuarix es owner o tiene permisos
+  return query.find({ $or: [
+    { visibility: { $ne: 'private' } },
+    { $or: [{owner: user}, {'permissions.user': user}] }
+  ]})
+}
+
 exports.all = function all (options, fn) {
   if (typeof options === 'function') {
     fn = options
@@ -39,9 +48,8 @@ exports.all = function all (options, fn) {
     }
   }
 
-  if (!options || (!options.owner && !options['privileges.canChangeTopics'])) {
-    query.find({ visibility: { $ne: 'private' } })
-  }
+  if (!options || (!options.owner && !options['privileges.canChangeTopics']))
+    filterQueryVisibility(query, options.user)
 
   query.exec(function (err, forums) {
     if (err) {
@@ -245,6 +253,8 @@ exports.findByClosed = function findByClosed (options, fn) {
   if (options.limit) query.limit(options.limit)
   if (options.skip) query.skip(options.skip)
 
+  filterQueryVisibility(query, options.user)
+
   query
     .exec(function (err, forums) {
       return fn(err, forums)
@@ -265,6 +275,8 @@ exports.findByPopular = function findByPopular (options, fn) {
 
   if (options.limit) query.limit(options.limit)
   if (options.skip) query.skip(options.skip)
+
+  filterQueryVisibility(query, options.user)
 
   query
     .exec(function (err, forums) {
