@@ -12,10 +12,10 @@ A través de este espacio podrás dejar tus ideas, comentarios y votar sobre alg
 **Dirección email:** dinamizadorasestamoslistas@gmail.com
 **Teléfono:** +57 (4) 545 - 41 - 07
 **Redes sociales:** 
-* Facebook: https://www.facebook.com/Listasparagobernar
-* Twitter: https://twitter.com/Estamos_Listas
-* Instagram: https://www.instagram.com/estamoslistas
-* YouTube: https://www.youtube.com/watch?v=1OxT2oMLIxU
+* [Facebook](https://www.facebook.com/Listasparagobernar)
+* [Twitter](https://twitter.com/Estamos_Listas)
+* [Instagram](https://www.instagram.com/estamoslistas)
+* [YouTube](https://www.youtube.com/channel/UCoIyQqhtC13AV3MlUfFHU_w)
 ​
 ## Tecnología
 

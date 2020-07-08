@@ -282,7 +282,7 @@
   "markdown.playground.result": "Resultado:",
   "markdown.playground.text": "¡Pruébalo tú mismo!",
   "markdown.playground.title": "A jugar",
-  "markdown.text.1": "DemocracyOS usa las siguientes reglas de markdown para argumentar los temas",
+  "markdown.text.1": "DemocracyOS permite cambiar el formato del texto (negrita, cursiva y saltos de línea) y agregar links.",
   "markdown.title.emphasis": "Énfasis de texto",
   "markdown.url-autolinking.example": "Ingresa a http://ejemplo.com",
   "markdown.url-autolinking.example2": "[Ingresa a Ejemplo.com!](http://www.ejemplo.com)",
