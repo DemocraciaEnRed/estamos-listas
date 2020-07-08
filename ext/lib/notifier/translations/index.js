@@ -9,9 +9,9 @@ const overrides = {
   'templates.email.greeting': 'Hola {userName},',
   'templates.email.signature': `${config.organizationName} - ${config.bajadaPlataforma}`,
 
-  'templates.welcome-email.subject': 'Bienvenido a ' + config.organizationName,
-  'templates.welcome-email.body': `Iniciaste el proceso de registro para participar en <a href="${homeUrl}">${config.organizationName}</a>.<br><br>Para finalizarlo, hacé click <a href=\"{validateUrl}\">click aquí.</a>`,
-  'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignorá este correo.  ',
+  'templates.welcome-email.subject': 'Bienvenida/o a ' + config.organizationName,
+  'templates.welcome-email.body': `Iniciaste el proceso de registro para participar en <a href="${homeUrl}">${config.organizationName}</a>.<br><br>Para finalizarlo, haz click <a href=\"{validateUrl}\">aquí</a>.`,
+  'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignora este correo.  ',
 
   'templates.comment-reply.subject': `¡Contestaron tu comentario en ${config.organizationName}!`,
   'templates.comment-reply.body': 'Tienes una nueva respuesta a tu comentario.',
