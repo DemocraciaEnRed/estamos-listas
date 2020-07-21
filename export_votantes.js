@@ -14,13 +14,13 @@ print('Fecha,Voto,Nombre,Apellido,Email')
 let u, str;
 
 db.votes.find().forEach(v => {
-	u = db.users.findOne(v.author)
+	//u = db.users.findOne(v.author)
 	str = `
 		${v.createdAt.toISOString()},
-		"${v.value}",
-		"${u.firstName}",
-		"${u.lastName}",
-		${u.email}
+		"${v.value}"
+		//"${u.firstName}",
+		//"${u.lastName}",
+		//${u.email}
 	`
 	print(str.replace(/[\n\t]/g, ''))
 })
