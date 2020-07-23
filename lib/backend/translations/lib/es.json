@@ -368,6 +368,7 @@
   "settings.change-at-gravatar": "Cambiá tu foto de perfil en gravatar.com",
   "settings.change-password": "Cambiar contraseña",
   "settings.confirm-password": "Confirmar contraseña nueva",
+  "settings.copy-from-social-media": "Puedes extraer la URL haciendo clic derecho en alguna imagen de tus redes sociales y seleccionando 'copiar dirección de imagen'",
   "settings.current-password": "Contraseña actual",
   "settings.first-name": "Nombre",
   "settings.last-name": "Apellido",

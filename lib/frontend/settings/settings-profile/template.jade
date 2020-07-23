@@ -28,5 +28,6 @@
               = t('settings.change-at-gravatar') + ' '
               i.icon-share-alt
             input.form-control(type='text', name='profilePictureUrl', maxlength=200, placeholder=t('settings.paste-url-image'), value=user.profilePictureUrl, validate='url')
+        label= t('settings.copy-from-social-media')
       .form-group: button.btn.btn-success.btn-block.btn-lg
         =t('settings.save')
