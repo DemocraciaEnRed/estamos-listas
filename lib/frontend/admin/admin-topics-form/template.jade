@@ -1,6 +1,8 @@
 - function te (str) { return t(str) !== str }
 
 #topic-wrapper(class=forum.visibility === 'collaborative' && !forum.privileges.canChangeTopics ? 'collaborative' : '')
+  a.btn.btn-primary.btn-sm(disabled=!(topic.action && topic.action.count > 0), href=urlBuilder.for('admin.votes.csv', { id: topic.id }))
+    = 'Descargar votos'
   - if (tags.length === 0)
     if (user.staff)
       p.alert.alert-danger.text-center
