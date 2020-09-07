@@ -5,6 +5,7 @@ import bus from 'bus'
 import config from 'lib/config'
 import FormAsync from 'lib/frontend/site/form-async'
 import userConnector from 'lib/frontend/site/connectors/user'
+import BtnFacebook from 'lib/frontend/site/sign-in/btn-facebook'
 
 export class SignIn extends Component {
   constructor (props) {
@@ -123,7 +124,6 @@ export class SignIn extends Component {
             required />
         </div>
         { config.allowPublicSignUp && registerLink }
-        <div className='form-group' />
         {!this.state.loading && (
           <button
             className='btn btn-block btn-primary'
@@ -154,9 +154,20 @@ export class SignIn extends Component {
             </div>
         </div>
         {form}
+        {config.facebookSignin && <FacebookForm />}
       </div>
     )
   }
 }
 
 export default userConnector(SignIn)
+
+function FacebookForm () {
+  return (
+    <div className='facebook-auth-form'>
+      <BtnFacebook />
+      <hr />
+      <p className='muted'>{t('signin.or-login-with-email')}</p>
+    </div>
+  )
+}
