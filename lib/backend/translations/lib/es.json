@@ -372,6 +372,7 @@
   "settings.current-password": "Contraseña actual",
   "settings.first-name": "Nombre",
   "settings.last-name": "Apellido",
+  "settings.circle": "Circulo al cual perteneces",
   "settings.locale": "Idioma",
   "settings.locale.ca": "Catalán",
   "settings.locale.de": "Alemán",

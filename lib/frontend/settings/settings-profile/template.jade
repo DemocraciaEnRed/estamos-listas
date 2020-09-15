@@ -18,6 +18,10 @@
       .form-group
         label= t('settings.locale')
         select.form-control(id='locale', name='locale')
+      .form-group
+        label= t('settings.circle')
+        select.form-control(id='circulo', name='circulo')
+          option(value='')= 'No pertenezco al movimiento'
       .form-group.profile-picture
         label= t('settings.profile-picture')
         .profile-picture-form
