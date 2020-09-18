@@ -205,6 +205,7 @@ export default class EditForum extends Component {
                   placeholder={t('admin-topics-form.placeholder.cover')}
                   value={coverUrl}
                   onChange={this.handleChange('coverUrl')} />
+                <label className='copy-image'>{t('settings.copy-from-social-media')}</label>
               </div>
             </fieldset>
             <fieldset>
