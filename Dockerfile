@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:8
 
 MAINTAINER Democracia en Red <it@democracyos.org>
 
@@ -7,14 +7,17 @@ RUN npm config set python python2.7
 WORKDIR /usr/src
 
 COPY ["package.json", "."]
+COPY ["package-lock.json", "."]
 
 ENV NODE_ENV=production \
     NODE_PATH=/usr/src
 
-RUN npm install --quiet
+#RUN npm install --quiet
+RUN npm ci --quiet
 
 RUN mkdir ext
 COPY ["ext/package.json", "ext"]
+COPY ["ext/package-lock.json", "ext"]
 
 RUN mkdir bin
 COPY ["bin/dos-ext-install", "bin"]
