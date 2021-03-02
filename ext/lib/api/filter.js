@@ -13,7 +13,7 @@ app.get(
     const options = {
       limit,
       skip: req.params.page * limit,
-      user: req.user.id
+      user: req.user ? req.user.id : null
     }
 
     switch (req.params.byWhat) {
