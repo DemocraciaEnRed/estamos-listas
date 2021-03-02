@@ -27,7 +27,7 @@ exports.all = function all (options, fn) {
   var query = Forum
     .find({ deletedAt: null, 'extra.hidden': false })
     .populate('owner')
-    .sort('-createdAt')
+    .sort('-updatedAt')
 
   if (options) {
     if (options.limit) query.limit(options.limit)
