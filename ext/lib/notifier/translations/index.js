@@ -10,7 +10,7 @@ const overrides = {
   'templates.email.signature': `${config.organizationName} - ${config.bajadaPlataforma}`,
 
   'templates.welcome-email.subject': 'Bienvenida/o a ' + config.organizationName,
-  'templates.welcome-email.body': `Iniciaste el proceso de registro para participar en <a href="${homeUrl}">${config.organizationName}</a>.<br><br>Para finalizarlo, haz click <a href=\"{validateUrl}\">aquí</a>.`,
+  'templates.welcome-email.body': `Iniciaste el proceso de registro para participar en <strong>${config.organizationName}</strong>.<br><br> <button style="background-color:#641873;border:0;color: white;padding: 10px;font-size: 15px;border-radius:2px" href=\"{validateUrl}\">Confirma tu registro</button>.`,
   'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignora este correo.  ',
 
   'templates.comment-reply.subject': `¡Contestaron tu comentario en ${config.organizationName}!`,
