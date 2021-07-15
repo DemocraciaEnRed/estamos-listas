@@ -2,11 +2,11 @@
 
 ### Descripción
 
-Los siguientes Términos y Condiciones regulan el uso de la plataforma **Estamos Listas para cuidar a Medellín**, donde se brinda información para la construcción de iniciativas del cuidado de la vida, políticas redistributivas y aporte a la gobernanza.
+Los siguientes Términos y Condiciones regulan el uso de la plataforma **Estamos Listas**, donde se brinda información para la construcción de iniciativas del cuidado de la vida, políticas redistributivas y aporte a la gobernanza.
 
 El registro y uso de la plataforma por parte de usuarias y usuarios indica la aceptación de todos los Términos y Condiciones presentes y de la Política de Privacidad.
 
-La plataforma **Estamos Listas para cuidar a Medellín** es un sitio web que promueve la democracia interna del movimiento político de mujeres **Estamos Listas** y es una red de innovación política. Esta herramienta favorece la generación de espacios de colaboración para codiseñar y coproducir valor público.
+La plataforma **Estamos Listas** es un sitio web que promueve la democracia interna del movimiento político de mujeres **Estamos Listas** y es una red de innovación política. Esta herramienta favorece la generación de espacios de colaboración para codiseñar y coproducir valor público.
 
 ### Inscripción en la plataforma web
 El acceso al sitio web es libre y gratuito. Requiere inscripción previa a través de un formulario que deberá ser validado por la administración del sitio.
@@ -50,7 +50,7 @@ La adecuada utilización de todos los recursos de Internet es, sin excepción, d
 - Intentar usurpar la identidad de otra usuaria/usuario, representando de manera falsa su afiliación con cualquier individuo o entidad, o utilizar el nombre de otra persona con el propósito de engañar.
 - Promover, defender o mostrar pornografía, obscenidad, vulgaridad, blasfemia, odio, fanatismo, racismo, discriminación y/o violencia.
 - Vulnerar los derechos establecidos en la normatividad Colombiana que regula el tratamiento y protección de datos personales.
-En caso de sufrir alguna de estas situaciones, comunicarse con la Administradora a través de la plataforma **Estamos Listas para cuidar a Medellín**.
+En caso de sufrir alguna de estas situaciones, comunicarse con la Administradora a través de la plataforma **Estamos Listas**.
 
 ### Moderación de las iniciativas
 Cada iniciativa/propuesta publicada en el sitio web tendrá una moderadora responsable de hacer cumplir estos Términos y Condiciones de uso. La moderadora será designada por la persona originante de la propuesta.

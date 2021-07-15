@@ -1,6 +1,6 @@
 # Acerca de este sitio
 
-La plataforma Estamos Listas para  cuidar a Medellín es un puente de diálogo y colaboración dispuesto para la ciudadanía, con el objetivo de facilitar toma de decisiones. 
+La plataforma Estamos listas es un canal de diálogo y colaboración propuesto por Estamos Listas, para la construcción de iniciativas del cuidado de la vida, políticas redistributivas y aporte a la gobernanza
 
 A través de este espacio podrás dejar tus ideas, comentarios y votar sobre algunos de los temas estratégicos de nuestra Concejalía Colectiva y nuestro movimiento. 
 
