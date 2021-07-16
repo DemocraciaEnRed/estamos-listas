@@ -1,56 +1,50 @@
 # ¿Cómo Funciona?
 
 * [¿Cómo crear un usuario?](#crear-usuario)
-* [¿Cómo configurar tu perfil?](#configurar-perfil)
 * [¿Cómo está estructurado el sitio?](#estructura-del-sitio)
 * [¿Cómo participo?](#participacion)
 * [¿Cómo puedo compartir una consulta?](#compartir-consulta)
+* [¿Cómo configurar tu perfil?](#configurar-perfil)
 
 ### ¿Cómo crear un usuario? <a name="crear-usuario"></a>
-Haz click en la opción **“ingresar”**, ubicada en la parte superior derecha de la pantalla. Para registrarte, debes elegir la opción **“registrarse”**, completar tus datos y enviar el formulario. Luego, recibirás un mail en tu correo electrónico con un link para validar tu usuario. Una vez validado, puedes participar. 
 
-![Imagen](/ext/lib/site/help/register.png)
+1. Haz click en la opción [“ingresar”](/signin), ubicada en la parte superior derecha de la pantalla. 
+2. Para registrarte, elige la opción “registrarse”
+3. Completa tus datos y envia el formulario. 
+4. Recibirás un mail en tu correo electrónico con un link para validar tu usuario, haz click allí.
+5. En caso de no recibirlo verifica tu casilla de correo no deseado.
+¡Ya puedes participar!
 
-### ¿Cómo configurar tu perfil? <a name="configurar-perfil"></a>
-Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu nombre de usuario. Haz click sobre tu nombre, aparecerá un menú desplegable.
-
-![Imagen](/ext/lib/site/help/user-button.png)   
-![Imagen](/ext/lib/site/help/user-dropdown.png)
-
-En **"Notificaciones”**, podras determinar las preferencias de las notificaciones y en **“Configuración”** definir tus __datos personales__ (nombre, apellido), modificar tu __contraseña__ y agregar un __foto de perfil__. Para tener una foto de perfil hay que pegar la URL de una imagen tuya. La forma más sencilla de hacerlo es ir a cualquier de tus redes sociales y en la foto que quieras, hacer click derecho y seleccionar “copiar URL de la imagen”. Otra forma de hacerlo es subir alguna imagen a un servidor (como por ejemplo <a target="_blank" href="https://es.imgbb.com/">https://es.imgbb.com/</a> ) y hacer el mismo proceso.
 
 ### ¿Cómo está estructurado el sitio? <a name="estructura-del-sitio"></a>
-En el sitio se tratan temas e iniciativas, abiertas a la participación de la ciudadanía a través de comentarios y acciones. A estos temas e iniciativas las llamamos “Consulta”. 
+En el sitio puedes encontrar **consultas**. Las **consultas** son **iniciativas abiertas a la participación de la ciudadanía** a través de comentarios y acciones.
 
-Las consultas se muestran por los filtros de “nuevas”, “relevantes” y “finalizadas”. La consulta está dividida en **ejes**, que comprenden distintos aspectos del tema abierto a debate. Se puede ingresar a los ejes directamente desde la pantalla principal. 
+Las **consultas** están compuestas por **ejes** o **propuestas** que comprenden distintos aspectos del tema abierto a debate donde puedes encontrar diferentes formas para **participar**. 
 
-![Imagen](/ext/lib/site/help/consultas-search.png)   
-![Imagen](/ext/lib/site/help/consulta-topics.png)
+![Imagen](/ext/lib/site/help/como-funciona.png)
 
-Para ver la consulta completa y todos los ejes elije **“ver más información”**, donde hay una descripción y explicación de la consulta. 
-
-Cada **eje** está abierto para participar durante un periodo de tiempo desde la fecha de publicación.
+Puedes participar en cada **eje** o **propuestas** por un periodo predeterminado de tiempo.
+Los usuarios pueden subir sus **propuestas** o **ideas** a través de **convocatorias**.
 
 ### ¿Cómo participo? <a name="participacion"></a>
 
-Se puede participar realizando comentarios y aportes en el **foro de debate**. Dentro de cada eje publicado, existe un espacio para hacer comentarios sobre las temáticas y expresarse sobre la discusión abierta. Una vez finalizado el tiempo estipulado de la consulta, no se puede seguir participando. 
+Dentro de cada eje o propuesta publicada, encontrarás un espacio para hacer **comentarios, debatir e intercambiar** puntos de vista con otros usuarios.
+En algunos casos, los ejes o propuestas invitan a algunas de las siguientes acciones:
 
-![Imagen](/ext/lib/site/help/comentarios.png)
+**Apoyo**: permite dar un apoyo o “me gusta”.
+**Voto**: permite elegir “a favor”, “abstención” y “en contra”.
+**Encuesta**: permite elegir entre un listado de opciones.
+**Jerarquía**: permite ordenar una lista de opciones de mayor a menor en base a un criterio.
+**Rango**: permite valorar en un rango entre “no estoy de acuerdo” y “estoy a favor”.
 
-También, se pueden **interactuar** con los comentarios de otras personas para debatir puntos de vista o aportar más información, contestando o valorando positiva o negativamente sus argumentos (con el “pulgar arriba” o “pulgar abajo”). Los comentarios se pueden ordenar de acuerdo a su “relevancia” o cronológicamente (“más recientes” o “más antiguos”).
+Luego de participar puedes **compartir la consulta en redes sociales** para que más personas se involucren!
 
-Además se puede participar votando. Cada eje tiene como posibilidad agregar una **acción específica.** Hay cinco tipos de acciones adicionales:
+### ¿Cómo configurar tu perfil? <a name="configurar-perfil"></a>
 
- - **Voto**: contiene las opciones “a favor”, “abstención” y “en contra”.
- - **Encuesta**: se presenta un listado de opciones para elegir una de ellas.
- - **Causa**: contiene una opción que permite apoyar la causa presentada en el eje.
- - **Rango**: con base en una pregunta, se posiciona la respuesta en un rango que varia desde “no estoy de acuerdo” hasta “estoy a favor”.
- - **Jerarquía**: de una lista de opciones, esta opción permite ordenarlas de mayor a menor con base en un criterio.
-
-![Imagen](/ext/lib/site/help/accion-voto.png)
-*Ejemplo de una de las acciones*
-
-### ¿Cómo puedo compartir una consulta? <a name="compartir-consulta"></a>
-Bajo el texto de cada propuesta, vas a encontrar las opciones de compartir por Facebook o por Twitter.
-
-![Imagen](/ext/lib/site/help/share-topic.png)
+1. Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu nombre de usuario. 
+2. Con un click sobre tu nombre, aparecerá un menú desplegable.
+3. En **"Notificaciones”**, puedes determinar las preferencias de las notificaciones 
+4. En **“Configuración”** puedes editar tus datos personales (nombre, apellido), modificar tu contraseña y agregar una foto de perfil.
+5. Para agregar una foto de perfil es necesario pegar la URL de una imagen.
+Una forma de hacerlo es seleccionar una foto de redes sociales, hacer click derecho y seleccionar “copiar URL de la imagen”.
+Otra forma, es subir una foto a un servidor como https://es.imgbb.com/ hacer lick derecho y seleccionar “copiar URL de la imagen”.
