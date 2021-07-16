@@ -43,8 +43,8 @@ Luego de participar puedes **compartir la consulta en redes sociales** para que 
 
 1. Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu nombre de usuario. 
 2. Con un click sobre tu nombre, aparecerá un menú desplegable.
-3. En **"Notificaciones”**, puedes determinar las preferencias de las notificaciones 
-4. En **“Configuración”** puedes editar tus datos personales (nombre, apellido), modificar tu contraseña y agregar una foto de perfil.
-5. Para agregar una foto de perfil es necesario pegar la URL de una imagen.
-Una forma de hacerlo es seleccionar una foto de redes sociales, hacer click derecho y seleccionar “copiar URL de la imagen”.
-Otra forma, es subir una foto a un servidor como https://es.imgbb.com/ hacer lick derecho y seleccionar “copiar URL de la imagen”.
+3. En "**Notificaciones**”, puedes determinar las preferencias de las notificaciones 
+4. En “**Configuración**” puedes editar tus datos personales (nombre, apellido), modificar tu contraseña y agregar una foto de perfil.
+5. Para agregar una foto de perfil es necesario pegar la URL de una imagen.  
+*Una forma de hacerlo es seleccionar una foto de redes sociales, hacer click derecho y seleccionar “copiar URL de la imagen”.*  
+*Otra forma, es subir una foto al servidor https://es.imgbb.com/ hacer lick derecho y seleccionar “copiar URL de la imagen”.*
