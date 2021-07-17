@@ -28,6 +28,18 @@
 .ext-site-home-multiforum
   background: transparent
 
+  .videoWrapper 
+      position: relative;
+      padding-bottom: 56.25%; 
+      height: 0;
+    
+  .videoWrapper iframe 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
   .forums-list
     display: flex
     flex-direction: column
@@ -71,7 +83,7 @@
       width: 40px
       height: 30px
       margin-top:25px
-
+    
   .lead-paragraph
     margin-top: 1.5em
     text-align: center
